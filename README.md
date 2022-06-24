@@ -27,7 +27,7 @@ GitHub URL: https://github.com/GlennAGeorge/Module-5-Work-Day-Scheduler
 
 VS code Live Server: http://127.0.0.1:5500/index.html
 
-GitHub Pages URL 
+GitHub Pages URL: https://glennageorge.github.io/Module-5-Work-Day-Scheduler/
 
 Support: glennadamgeorge@gmail.com
 
