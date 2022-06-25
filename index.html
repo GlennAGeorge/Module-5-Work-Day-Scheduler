@@ -31,45 +31,56 @@
     <div class="container">
       <!-- Timeblocks go here -->
         <!-- 9am Timeblock -->
-        <div>9am</div>
-        <input type="text">
+        <div id="9">9am</div>
+        <input class="entry" type="text">
         <button>&#128190;</button>
         <!-- 10am Timeblock -->
-        <div>10am</div>
+        <div id="10">10am</div>
         <input type="text">
         <button>&#128190;</button>
         <!-- 11am Timeblock -->
-        <div>11am</div>
+        <div id="11">11am</div>
         <input type="text">
         <button>&#128190;</button>
         <!-- 12pm Timeblock -->
-        <div>12pm</div>
+        <div id="12">12pm</div>
         <input type="text">
         <button>&#128190;</button>
         <!-- 1pm Timeblock -->
-        <div>1pm</div>
+        <div id="13">1pm</div>
         <input type="text">
         <button>&#128190;</button>
         <!-- 2pm Timeblock -->
-        <div>2pm</div>
+        <div id="14">2pm</div>
         <input type="text">
         <button>&#128190;</button>
         <!-- 3pm Timeblock -->
-        <div>3pm</div>
+        <div id="15">3pm</div>
         <input type="text">
         <button>&#128190;</button>
         <!-- 4pm Timeblock -->
-        <div>4pm</div>
+        <div id="16">4pm</div>
         <input type="text">
         <button>&#128190;</button>
         <!-- 5pm Timeblock -->
-        <div>5pm</div>
-        <input type="text">
-        <button>&#128190;</button>
-        
+        <div id="17">5pm</div>
+        <input id="texInput" class="textOutput" type="text" placeholder="Enter Task...">  
+        <button type="button" id="btn">&#128190;</button>     
       </div>
     </div>
 
+<!--Testing -->
+
+    <fieldset>
+      <legend>Insert Data</legend>
+      <input id="inpKey" type="text" placeholder="Enter Key...">
+      <input id="inpValue" type="text" placeholder="Enter Key...">
+      <button type="button" id="btnInsert">Insert Button</button>
+    </fieldset>
+<fieldset>
+  <legend>local storage</legend>
+  <div id="lsOutput"></div>
+</fieldset>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
  <script src="index.js"></script>
