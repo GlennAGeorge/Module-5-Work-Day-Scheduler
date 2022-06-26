@@ -2,20 +2,7 @@
 //varibales for days
 const days = ["Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat"];
 //variables for months
-const months = [
-	"Jan",
-	"Feb",
-	"Mar",
-	"Apr",
-	"May",
-	"Jun",
-	"Jul",
-	"Aug",
-	"Sep",
-	"Oct",
-	"Nov",
-	"Dec",
-];
+const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec",];
 //variable (reF: W3 schools https://www.w3schools.com/js/js_dates.asp)
 const date = new Date();
 let month = months[date.getMonth()];
@@ -140,7 +127,7 @@ let hour9 = currentHour9.getHours();
 console.log(hour9);
 //setting comparision hour
 const taskHour9 = 9;
-console.log(typeof taskHour9)
+console.log(typeof taskHour9);
 
 if (hour9 > taskHour9) {
 	task9block.classList.add("past");
@@ -161,7 +148,7 @@ let hour10 = currentHour10.getHours();
 console.log(hour10);
 //setting comparision hour
 const taskHour10 = 10;
-console.log(typeof taskHour10)
+console.log(typeof taskHour10);
 
 if (hour10 > taskHour10) {
 	task10block.classList.add("past");
@@ -182,7 +169,7 @@ let hour11 = currentHour11.getHours();
 console.log(hour11);
 //setting comparision hour
 const taskHour11 = 11;
-console.log(typeof taskHour11)
+console.log(typeof taskHour11);
 
 if (hour11 > taskHour11) {
 	task11block.classList.add("past");
@@ -203,7 +190,7 @@ let hour12 = currentHour12.getHours();
 console.log(hour12);
 //setting comparision hour
 const taskHour12 = 12;
-console.log(typeof taskHour12)
+console.log(typeof taskHour12);
 
 if (hour12 > taskHour12) {
 	task12block.classList.add("past");
@@ -224,7 +211,7 @@ let hour13 = currentHour13.getHours();
 console.log(hour13);
 //setting comparision hour
 const taskHour13 = 13;
-console.log(typeof taskHour13)
+console.log(typeof taskHour13);
 
 if (hour13 > taskHour13) {
 	task13block.classList.add("past");
@@ -245,7 +232,7 @@ let hour14 = currentHour14.getHours();
 console.log(hour14);
 //setting comparision hour
 const taskHour14 = 14;
-console.log(typeof taskHour14)
+console.log(typeof taskHour14);
 
 if (hour14 > taskHour14) {
 	task14block.classList.add("past");
@@ -258,4 +245,65 @@ if (hour14 > taskHour14) {
 	task14block.classList.add("future");
 }
 
+const task15block = document.querySelector(".task15block");
+console.log(task15block.classList);
+//setting current hour
+const currentHour15 = new Date();
+let hour15 = currentHour15.getHours();
+console.log(hour15);
+//setting comparision hour
+const taskHour15 = 15;
+console.log(typeof taskHour15);
 
+if (hour15 > taskHour15) {
+	task15block.classList.add("past");
+} else if (hour15 === taskHour15) {
+	task15block.classList.remove("past");
+	task15block.classList.add("present");
+} else {
+	task15block.classList.remove("past");
+	task15block.classList.remove("present");
+	task15block.classList.add("future");
+}
+
+const task16block = document.querySelector(".task16block");
+console.log(task16block.classList);
+//setting current hour
+const currentHour16 = new Date();
+let hour16 = currentHour16.getHours();
+console.log(hour16);
+//setting comparision hour
+const taskHour16 = 16;
+console.log(typeof taskHour16);
+
+if (hour16 > taskHour16) {
+	task16block.classList.add("past");
+} else if (hour16 === taskHour16) {
+	task16block.classList.remove("past");
+	task16block.classList.add("present");
+} else {
+	task16block.classList.remove("past");
+	task16block.classList.remove("present");
+	task16block.classList.add("future");
+}
+
+const task17block = document.querySelector(".task17block");
+console.log(task17block.classList);
+//setting current hour
+const currentHour17 = new Date();
+let hour17 = currentHour17.getHours();
+console.log(hour17);
+//setting comparision hour
+const taskHour17 = 17;
+console.log(typeof taskHour17);
+
+if (hour17 > taskHour17) {
+	task17block.classList.add("past");
+} else if (hour17 === taskHour17) {
+	task17block.classList.remove("past");
+	task17block.classList.add("present");
+} else {
+	task17block.classList.remove("past");
+	task17block.classList.remove("present");
+	task17block.classList.add("future");
+}
