@@ -87,11 +87,16 @@ textarea{
   font-size: 30px;
 }
 .past {
-  background-color: red;
+  background-color: lightpink
 }
 .present {
-  background-color: green;
+  background-color: lightyellow
 }
 .future {
-  background-color: yellow;
+  background-color: lightgreen
+}
+
+::placeholder {
+  color: #000000;
+  opacity: .5;
 }

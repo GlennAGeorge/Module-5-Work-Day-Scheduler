@@ -135,18 +135,16 @@ rbtn17.addEventListener("click", () => {
 const task9block = document.querySelector(".task9block");
 console.log(task9block.classList);
 //setting current hour
-const currentHour = new Date();
-let hour = currentHour.getHours();
-console.log(typeof hour);
+const currentHour9 = new Date();
+let hour9 = currentHour9.getHours();
+console.log(hour9);
 //setting comparision hour
 const taskHour9 = 9;
 console.log(typeof taskHour9)
 
-if (hour < taskHour9) {
+if (hour9 > taskHour9) {
 	task9block.classList.add("past");
-	console.log(task9block.classList.add("past"));
-	//undefined
-} else if (hour === taskHour9) {
+} else if (hour9 === taskHour9) {
 	task9block.classList.remove("past");
 	task9block.classList.add("present");
 } else {
@@ -154,15 +152,110 @@ if (hour < taskHour9) {
 	task9block.classList.remove("present");
 	task9block.classList.add("future");
 }
-// past is green, present is blue, future is red
 
-// if (hour < currentHour) {
-// 	btn.classList.add("past");
-// } else if (hour === currentHour) {
-// 	btn.classList.remove("past");
-// 	btn.classList.add("present");
-// } else {
-// 	btn.classList.remove("past");
-// 	btn.classList.remove("present");
-// 	btn.classList.add("future");
-// }
+const task10block = document.querySelector(".task10block");
+console.log(task10block.classList);
+//setting current hour
+const currentHour10 = new Date();
+let hour10 = currentHour10.getHours();
+console.log(hour10);
+//setting comparision hour
+const taskHour10 = 10;
+console.log(typeof taskHour10)
+
+if (hour10 > taskHour10) {
+	task10block.classList.add("past");
+} else if (hour10 === taskHour10) {
+	task10block.classList.remove("past");
+	task10block.classList.add("present");
+} else {
+	task10block.classList.remove("past");
+	task10block.classList.remove("present");
+	task10block.classList.add("future");
+}
+
+const task11block = document.querySelector(".task11block");
+console.log(task11block.classList);
+//setting current hour
+const currentHour11 = new Date();
+let hour11 = currentHour11.getHours();
+console.log(hour11);
+//setting comparision hour
+const taskHour11 = 11;
+console.log(typeof taskHour11)
+
+if (hour11 > taskHour11) {
+	task11block.classList.add("past");
+} else if (hour11 === taskHour11) {
+	task11block.classList.remove("past");
+	task11block.classList.add("present");
+} else {
+	task11block.classList.remove("past");
+	task11block.classList.remove("present");
+	task11block.classList.add("future");
+}
+
+const task12block = document.querySelector(".task12block");
+console.log(task12block.classList);
+//setting current hour
+const currentHour12 = new Date();
+let hour12 = currentHour12.getHours();
+console.log(hour12);
+//setting comparision hour
+const taskHour12 = 12;
+console.log(typeof taskHour12)
+
+if (hour12 > taskHour12) {
+	task12block.classList.add("past");
+} else if (hour12 === taskHour12) {
+	task12block.classList.remove("past");
+	task12block.classList.add("present");
+} else {
+	task12block.classList.remove("past");
+	task12block.classList.remove("present");
+	task12block.classList.add("future");
+}
+
+const task13block = document.querySelector(".task13block");
+console.log(task13block.classList);
+//setting current hour
+const currentHour13 = new Date();
+let hour13 = currentHour13.getHours();
+console.log(hour13);
+//setting comparision hour
+const taskHour13 = 13;
+console.log(typeof taskHour13)
+
+if (hour13 > taskHour13) {
+	task13block.classList.add("past");
+} else if (hour13 === taskHour13) {
+	task13block.classList.remove("past");
+	task13block.classList.add("present");
+} else {
+	task13block.classList.remove("past");
+	task13block.classList.remove("present");
+	task13block.classList.add("future");
+}
+
+const task14block = document.querySelector(".task14block");
+console.log(task14block.classList);
+//setting current hour
+const currentHour14 = new Date();
+let hour14 = currentHour14.getHours();
+console.log(hour14);
+//setting comparision hour
+const taskHour14 = 14;
+console.log(typeof taskHour14)
+
+if (hour14 > taskHour14) {
+	task14block.classList.add("past");
+} else if (hour14 === taskHour14) {
+	task14block.classList.remove("past");
+	task14block.classList.add("present");
+} else {
+	task14block.classList.remove("past");
+	task14block.classList.remove("present");
+	task14block.classList.add("future");
+}
+
+
