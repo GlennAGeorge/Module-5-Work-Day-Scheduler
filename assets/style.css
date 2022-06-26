@@ -73,7 +73,7 @@ textarea{
 /*row and columns for time block (Ref: W3 Schools)*/
 .container {
   display: grid;
-  grid-template-columns: 100px 900px 100px;
+  grid-template-columns: 100px 900px 100px 100px;
   background-color: black;
   gap: 10px;
 
