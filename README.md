@@ -21,9 +21,7 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 
-Mock-Up The following image shows the web application's appearance and functionality:
-
-chrome-extension://mmeijimgabbpbgpdklnllpncmdofkcpn/app.html#/files/91f995f8-8877-4a4a-y337-638a6ad1bef1
+Mock-Up The following image shows the web application's appearance and functionality: https://share.vidyard.com/watch/nsQLcXT5wPqqxyvtF16MPQ?
 
 GitHub URL: https://github.com/GlennAGeorge/Module-5-Work-Day-Scheduler
 
